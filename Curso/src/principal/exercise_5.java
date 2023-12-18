@@ -10,7 +10,8 @@ public class exercise_5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter your grades, to calculate the grade point average: ");        float p1 = sc.nextFloat();
+        System.out.println("Enter your grades, to calculate the grade point average: ");        
+        float p1 = sc.nextFloat();
         float p2 = sc.nextFloat();
         float p3 = sc.nextFloat();
         float p4 = sc.nextFloat();
