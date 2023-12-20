@@ -8,15 +8,14 @@ public class exercise_7 {
         }
 
         System.out.println("un valor de 4 valores");
-        int a1 = 4324;
-        int a2 = a1/1000;
-        int a3 = a1%1000;
-        int a31 = a3/100;
-        int a4 = a31%100;
-        int a41 = a4/10;
-        int a5 = a41%1;
+        int number = 4324;
+        int dig1 = number/1000;
+        int dig2 = (number%1000)/100;
+        int dig3 = (number%100)/10;
+        int dig4 = (number%10);
 
-        String invertido = String.valueOf(a2) + String.valueOf(a31) + String.valueOf(a41) + String.valueOf(a5);
-        System.out.println("Su numero invertido es"+ invertido);
+        String invertido = Integer.toString(dig4) + Integer.toString(dig3) + Integer.toString(dig2) + Integer.toString(dig1);
+
+        System.out.println(invertido);
     }
 }
