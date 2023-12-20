@@ -8,16 +8,16 @@ its three sides (they do not have to be equal).
 public class exercise_1 {
     public static void main(String[] args) {
        
-        Scanner sc = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter lengths: ");
 
-        System.out.println("Enter lengths: ");
+            float L1 = sc.nextFloat();
+            float L2 = sc.nextFloat();
+            float L3 = sc.nextFloat();
 
-        float L1 = sc.nextFloat();
-        float L2 = sc.nextFloat();
-        float L3 = sc.nextFloat();
+            float vol = L1 * L2 * L3;
 
-        float vol = L1 * L2 * L3;
-
-        System.out.println("The volume of the cube is: " + vol);
+            System.out.println("The volume of the cube is: " + vol);
+        }
     }
 }

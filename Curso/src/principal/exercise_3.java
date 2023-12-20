@@ -11,17 +11,17 @@ h = ( 3 * Vcono ) / ( PI * r^2 )
  */
 public class exercise_3 {
 public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
+    try (Scanner sc = new Scanner(System.in)) {
+        System.out.println("Enter the value of the volume and the radius of the base of the triangle, in centimeters: ");
 
-    System.out.println("Enter the value of the volume and the radius of the base of the triangle, in centimeters: ");
+        final double PI = 3.141592653589793;
+        double volume = sc.nextDouble();
+        double radius = sc.nextDouble();
 
-    final double PI = 3.141592653589793;
-    double volume = sc.nextDouble();
-    double radius = sc.nextDouble();
+        double triangle_height = (volume * 3) / (PI * (radius*radius));
 
-    double triangle_height = (volume * 3) / (PI * (radius*radius));
-
-    System.out.println("The height of the triangle, is: " + triangle_height + " cm.");
+        System.out.println("The height of the triangle, is: " + triangle_height + " cm.");
+    }
 
 }
 }

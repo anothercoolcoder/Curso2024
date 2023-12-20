@@ -7,16 +7,16 @@ height.
  */
 public class exercise_2 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Between the base and height of the triangle: ");
 
-        System.out.println("Between the base and height of the triangle: ");
+            float base  = sc.nextFloat();
+            float height = sc.nextFloat();
 
-        float base  = sc.nextFloat();
-        float height = sc.nextFloat();
+            float area = (base * height) / 2;
 
-        float area = (base * height) / 2;
-
-        System.out.println("The area of the triangle is: " + area);
+            System.out.println("The area of the triangle is: " + area);
+        }
 
     }
 }
