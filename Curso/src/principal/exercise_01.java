@@ -5,7 +5,7 @@ import java.util.Scanner;
 Create a program to calculate the volume of a cube knowing the length of its three sides (they do not have to be equal).
 its three sides (they do not have to be equal).
 */
-public class exercise_1 {
+public class exercise_01 {
     public static void main(String[] args) {
        
         try (Scanner sc = new Scanner(System.in)) {

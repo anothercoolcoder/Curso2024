@@ -6,7 +6,7 @@ decimal places.
  */
 import java.util.Scanner;
 
-public class exercise_5 {
+public class exercise_05 {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.println("Enter your grades, to calculate the grade point average: ");        

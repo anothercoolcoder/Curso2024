@@ -2,7 +2,7 @@ package principal;
 
 import java.util.Scanner;
 
-public class exercise_6 {
+public class exercise_06 {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.println("Enter a value in meters, it will be converted to centimeters, kilometers, inches and feet: ");

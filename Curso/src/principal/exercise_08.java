@@ -2,7 +2,7 @@ package principal;
 
 import java.util.Scanner;
 
-public class exercise_8 {
+public class exercise_08 {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.println("Dame un monto en pesos, para pasarlo a dolares, euros y bolivares: ");

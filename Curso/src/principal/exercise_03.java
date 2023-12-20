@@ -9,7 +9,7 @@ Vcone = ( 1 / 3 ) * ( PI * r^2 * h )
 Then, clearing the height "h" from the formula we would have that:
 h = ( 3 * Vcono ) / ( PI * r^2 )
  */
-public class exercise_3 {
+public class exercise_03 {
 public static void main(String[] args) {
     try (Scanner sc = new Scanner(System.in)) {
         System.out.println("Enter the value of the volume and the radius of the base of the triangle, in centimeters: ");
