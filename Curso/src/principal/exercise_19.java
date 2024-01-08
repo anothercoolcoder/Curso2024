@@ -1,6 +1,6 @@
 package principal;
 
-public class clase_19 {
+public class exercise_19 {
     public static void main(String[] args) {
         int a = 3;
         int b = 4;

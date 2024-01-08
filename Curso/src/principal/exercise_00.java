@@ -2,7 +2,7 @@ package principal;
 
 import java.util.Scanner;
 
-public class examplesintax {
+public class exercise_00 {
     public static void main(String[] args) {
         
       try (Scanner sc = new Scanner(System.in)) {

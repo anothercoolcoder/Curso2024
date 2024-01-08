@@ -2,7 +2,7 @@ package principal;
 
 import java.util.Scanner;
 
-public class punto3 {
+public class exercise_18 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -13,10 +13,6 @@ public class punto3 {
         double salariohora = 260000/40;
         
 
-        if (horas>40) {
-            double extra = salario*
-            
-        }
 
 
     }

@@ -2,7 +2,7 @@ package principal;
 
 import java.util.Scanner;
 
-public class dia_sabroson {
+public class exercise_20 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // ingresamos dos valores
